@@ -33,7 +33,7 @@ Navigator.pop(context);
         ),
        
 
-body: SafeArea(
+body: SingleChildScrollView(
   child: Container(
     padding: EdgeInsets.symmetric(horizontal: 40),
     height: MediaQuery.of(context).size.height,
